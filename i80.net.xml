@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-21 15:42:18 by Eclipse SUMO netedit Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\ZhengL\Desktop\test.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\ZhengL\Desktop\test.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,600.00,0.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="i80" from="J0" to="J1" priority="-1" length="600.00">
+        <lane id="i80_0" index="0" speed="25.00" length="600.00" width="8.00" shape="0.00,-27.26 600.00,-27.26"/>
+        <lane id="i80_1" index="1" speed="25.00" length="600.00" width="4.84" shape="0.00,-20.84 600.00,-20.84"/>
+        <lane id="i80_2" index="2" speed="25.00" length="600.00" width="3.70" shape="0.00,-16.57 600.00,-16.57"/>
+        <lane id="i80_3" index="3" speed="25.00" length="600.00" width="3.72" shape="0.00,-12.86 600.00,-12.86"/>
+        <lane id="i80_4" index="4" speed="25.00" length="600.00" width="3.48" shape="0.00,-9.26 600.00,-9.26"/>
+        <lane id="i80_5" index="5" speed="25.00" length="600.00" width="3.90" shape="0.00,-5.57 600.00,-5.57"/>
+        <lane id="i80_6" index="6" speed="25.00" length="600.00" width="3.62" shape="0.00,-1.81 600.00,-1.81"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-31.26"/>
+    <junction id="J1" type="dead_end" x="600.00" y="0.00" incLanes="i80_0 i80_1 i80_2 i80_3 i80_4 i80_5 i80_6" intLanes="" shape="600.00,-31.26 600.00,0.00"/>
+
+</net>
