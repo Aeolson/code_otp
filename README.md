@@ -1,4 +1,4 @@
-# OTP_python
+# OTP_Code Implementation
 
 This is the implementation of the OTP scheme introduced in the paper:
 "Trajectory Planning Integrated with Risk-aware Corridors: An Optimization-based Approach for Autonomous Vehicles in Uncertain Environments". 
@@ -15,5 +15,6 @@ Run 'main.py' to test the planning performance of different methods and the resu
 Run 'replay_results.py' can replay the result with a visualization GUI.
 
 For more information of the deep learning-based method, you can refer to our previous work:
+
 
 Z. Li, Y. Wang and Z. Zuo, "Interaction-Aware Prediction for Cut-In Trajectories With Limited Observable Neighboring Vehicles," IEEE Transactions on Intelligent Vehicles, vol. 8, no. 3, pp. 2148-2161, 2023.
